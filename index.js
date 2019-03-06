@@ -13,6 +13,11 @@ function currentLine(line){
   return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
 
+let array = [1,2,3,4]
+array[0]
+
+currentLine(["Ada", "Grace", "Kent"])
+
 function nowServing(line) {
   if(!line.length) {
     console.log("There is nobody waiting to be served!")
